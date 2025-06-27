@@ -1,0 +1,50 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Permitir todo en 'piper' (incluso ejecutables y DLLs)
+!piper/
+!piper/**
+
+# libreria de portaudio
+!libportaudio.a
+!libportaudio.dll.a
+!libportaudio.dll
+!libwhisper.a
+!ggml.a
+!ggml-base.a
+!ggml-cpu.a
+# project specific
+memory.txt
+speak.log
+llama.log
+server.log
