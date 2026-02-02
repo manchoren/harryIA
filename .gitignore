@@ -1,3 +1,5 @@
+.vscode
+
 # Prerequisites
 *.d
 
@@ -48,3 +50,8 @@ memory.txt
 speak.log
 llama.log
 server.log
+python/venv
+python/__pycache__/
+DeepSeek*
+*.core
+Unsloth*

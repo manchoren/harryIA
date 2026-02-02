@@ -3,11 +3,13 @@
 
 #include <string>
 
-class HttpClient {
+class HttpClient
+{
 public:
-    HttpClient(const std::string& server_url);
-    std::string post(const std::string& endpoint, const std::string& body);
-    
+    HttpClient(const std::string &server_url);
+    std::string post(const std::string &endpoint, const std::string &body);
+    std::string get(const std::string &endpoint);
+
 private:
     std::string server_url;
 };

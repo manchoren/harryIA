@@ -1,0 +1,4 @@
+requests
+speechrecognition
+pyttsx3
+# For whisper if needed: openai-whisper
